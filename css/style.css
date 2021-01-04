@@ -824,6 +824,19 @@ margin-bottom: 49px;
 
 /* ------Page 2 end------ */
 
+.up-button {
+  display: none;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.up-button_shown {
+  display: block;
+}
+
 /* Media start */
 @media screen and (max-width: 1230px) {
   .container {
