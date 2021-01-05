@@ -55,7 +55,7 @@
             <h1 class="articles__title main-title">Все статьи</h1>
             <div class="articles__select-wrapper">
               <select name="articles__select" id="articles__select">
-                <option value="select-theme">Выбрать тему</option>
+                <option value="all">Все темы</option>
                 <option value="adventures">Путешествия</option>
                 <option value="city">Город</option>
                 <option value="books">Книги</option>
@@ -67,7 +67,7 @@
 
           <div class="articles__pictures">
 
-            <div class="picture__sm">
+            <div class="picture__sm js-card" data-theme="adventures">
               <div class="picture__sm-container">
                 <img src="./img/articles-img1-min.jpg" alt="Путешествие в Берлин в августе" class="picture__sm-pic">
               </div>
@@ -86,7 +86,7 @@
               <a href="#!" class="articles__pictures-link"></a>
             </div>
 
-            <div class="picture__sm">
+            <div class="picture__sm js-card" data-theme="city">
               <div class="picture__sm-container">
                 <img src="./img/articles-img2-min.jpg" alt="Где выпить колдбрю в Москве" class="picture__sm-pic">
               </div>
@@ -105,7 +105,7 @@
               <a href="#!" class="articles__pictures-link"></a>
             </div>
 
-            <div class="picture__sm">
+            <div class="picture__sm js-card" data-theme="books">
               <div class="picture__sm-container">
                 <img src="./img/articles-img3-min.jpg" alt="Прочитано: книжные рекомендации" class="picture__sm-pic">
               </div>
@@ -124,7 +124,7 @@
               <a href="#!" class="articles__pictures-link"></a>
             </div>
 
-            <div class="picture__lg">
+            <div class="picture__lg js-card" data-theme="photos">
               <img src="./img/articles-img4-min.jpg" alt="Снимки на плёнку" class="picture__lg-pic">
               <div class="picture__lg-desc">
                 <h2 class="picture__lg-title">
@@ -141,7 +141,7 @@
               <a href="#!" class="articles__pictures-link"></a>
             </div>
 
-            <div class="picture__lg">
+            <div class="picture__lg js-card" data-theme="recipes">
               <img src="./img/articles-img5-min.jpg" alt="Домашний чизкейк " class="picture__lg-pic">
               <div class="picture__lg-desc">
                 <h2 class="picture__lg-title">
@@ -199,10 +199,12 @@
                 Приятного чтения!
               </p>
               <p class="about__desc-subtitle">
-                Я верю, что каждый раз пробуя новое,
-                выходящее за зону моего комфорта,
-                я действительно узнаю настояющую
-                себя. 
+                <a href="./article.html" class="about__desc-link">
+                  Я верю, что каждый раз пробуя новое,
+                  выходящее за зону моего комфорта,
+                  я действительно узнаю настояющую
+                  себя. 
+                </a>
               </p>
             </div>
           </div>
@@ -332,7 +334,6 @@
     <img src="./img/up-arrow.png" alt="" class="up-button-pic">
   </div>
 
-  
   <script src="./js/main.js"></script>
 
 </body>

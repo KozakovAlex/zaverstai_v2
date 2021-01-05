@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -171,6 +172,12 @@ img {
   column-gap: 20px;
   row-gap: 62px;
   margin-bottom: 116px;
+}
+
+.js-card_hidden {
+  /* background: rgb(0, 0, 0, 0.75);
+  border-radius: 10px; */
+  display: none;
 }
 
 .picture__sm {
@@ -345,6 +352,10 @@ img {
   font-size: 30px;
   line-height: 40px;
   color: #2E2F22;
+}
+
+.about__desc-link {
+  text-decoration: none;
 }
 
 .about__desc::before {
