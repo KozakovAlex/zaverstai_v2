@@ -14,7 +14,23 @@ upButton.onclick = function () {
   window.scrollTo(0, 0)
 }
 
-//select script
+
+// Form wrapper script
+let commentsInpurForm = document.querySelector('.comments__input-form');
+let commentsInputData = document.querySelector('.comments__input-button');
+if  (window.innerWidth < 595) {
+  commentsInpurForm.append(commentsInputData);
+}
+
+// (function () {
+//   if  (window.innerWidth < 595) {
+//     commentsInpurForm.append(commentsInputData);
+//   }
+// }());
+
+
+
+// select script
 let cards = document.querySelectorAll('.js-card');
 let articlesSelect = document.querySelector('#articles__select');
 
@@ -27,3 +43,8 @@ articlesSelect.onchange = () => {
     }
   }
 };
+
+
+
+
+

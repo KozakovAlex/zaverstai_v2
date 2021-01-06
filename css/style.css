@@ -1034,26 +1034,19 @@ margin-bottom: 49px;
     flex-basis: 100%;
   }
   .comments__input-memo {
-    display: none;
+    flex-basis: 100%;
   }
   .comments__input-title {
     padding: 0;
     text-align: center;
     margin-bottom: 20px;
   }
-  .comments__input-form {
-    flex-direction: column;
-  }
-  .comments__input-memo_ghost {
-    display: block;
-    margin-bottom: 10px;
-  }
-  .comments__input-area {
-    flex-basis: 100%;
-  }
   .comments__input-data {
     align-self: flex-start;
     margin: 0 0 10px 0;
+  }
+  .comments__input-memo {
+    margin-bottom: 10px;
   }
 }
 
