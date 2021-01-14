@@ -16,6 +16,7 @@ body {
   font-size: 16px;
   line-height: 26px;
   color: #2E2F22;
+  min-width: 992px;
 }
 
 img {
